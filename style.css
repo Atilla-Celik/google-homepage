@@ -1,0 +1,27 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+/* global */
+
+.top{
+    height: 100px;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 0.8em;
+}
+
+nav-1{
+    float: left;
+}
+
+nav-2{
+    float: right;
+}
+
+
+
+
