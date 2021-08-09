@@ -14,6 +14,8 @@ nav ul{
     list-style: none;
     font-size: 0.8em;
     min-width: 30vw;
+    padding-inline-start:15px;
+    
     
     
 }
@@ -21,16 +23,20 @@ nav ul{
 nav ul li{
     display: inline;
     list-style:none;
-    text-decoration: none;
-    padding: 0 10px;
+    
+    padding: 0 0px;
+    
 }
 
-nav a{
-
+a{
+    text-decoration: none;
+    color: #222;
+    margin: 10px;
 }
 
 .nav-1{
     float: left;
+
     
     
 }
@@ -38,6 +44,7 @@ nav a{
 .nav-2{
     float: right;
     min-width: 50px;
+    margin-right: 25px;
    
 }
 
@@ -61,3 +68,25 @@ nav #sign-in {
 
 }
 
+#bar-container {
+    width: 582px;
+    border-radius: 25px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    margin: 23px auto;
+    
+}
+
+#searchbar{
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    height: 35px;
+    width:382px;
+    border: none; 
+    /*display:flex;*/
+}
+
+#search-icon{
+    margin-right: 155px;
+    margin-top: 10px;
+}
