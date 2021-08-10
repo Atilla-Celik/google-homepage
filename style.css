@@ -76,6 +76,9 @@ nav #sign-in {
     margin: 23px auto;
     
 }
+#bar-container:hover {
+    box-shadow: 2px 2px 1px rgb(189, 189, 189), -0.5px -0.5px 0px rgb(189, 189, 189);
+}
 
 #searchbar{
     border-radius: 8px;
@@ -89,4 +92,47 @@ nav #sign-in {
 #search-icon{
     margin-right: 155px;
     margin-top: 10px;
+}
+
+/*footer*/
+
+.footer{
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #f2f2f2;
+    
+}
+
+footer ul{
+    list-style: none;
+    font-size: 0.8em;
+    min-width: 30vw;
+    padding-inline-start:15px;
+    
+    
+    
+}
+
+footer ul li{
+    display: inline;
+    list-style:none;
+    
+    padding: 0 0px;
+    
+}
+
+.foot-1{
+    float: left;
+
+    
+    
+}
+
+.foot-2{
+    float: right;
+    min-width: 50px;
+    margin-right: 25px;
+   
 }
