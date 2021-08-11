@@ -81,17 +81,55 @@ nav #sign-in {
 }
 
 #searchbar{
-    border-radius: 8px;
+    
     border: 1px solid #dfe1e5;
     height: 35px;
     width:382px;
     border: none; 
+    -webkit-appearance:  none;
+    appearance: none;
+    display:hidden;
     /*display:flex;*/
 }
 
+#searchbar:focus {
+    outline:none;
+   font-size: 15px;
+}
+
 #search-icon{
-    margin-right: 155px;
-    margin-top: 10px;
+    /*margin-right: 155px;
+    margin-top: 10px;*/
+    position: relative;
+    right: 60px;
+    top: 7px;
+}
+
+#mic {
+    height: 24px;
+    position: relative;
+    left: 57px;
+    top:10px;
+}
+
+/*buttons*/
+
+#button-sec{
+    display: flex;
+    justify-content: center;
+    height:50px;
+    width: 300px;
+    margin: -35px auto 5px;
+}
+
+.buttons {
+    margin: auto;
+    padding: 8px;
+    width:124px;
+    border-color: #fff;
+    border-radius: 4px;
+    color: #666;
+
 }
 
 /*footer*/
